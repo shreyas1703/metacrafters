@@ -1,7 +1,7 @@
 # metacrafters
 ##CREATING A TOKEN
 
-"This Solidity program shows basic syntax and functionality while CREATING A TOKEN. It's a starting point for Solidity newcomers to understand its workings. This program's purpose is to generate tokens and familiarity with the Solidity programming language."
+The following Solidity program demonstrates the basic syntax and operation while creating a TOKEN. This program is intended for Solidity beginners to understand how Solidity works. The purpose of this program is to create tokens and become familiar with Solidity.
 
 #Interpretation
 
@@ -18,8 +18,8 @@ Once you are on the Remix website, create a new file by clicking on the "+" icon
 contract MyToken {
 
 // public variables here
-string public tokenname = "BETA";
-string public tokenabbrv = "BTA";
+string public tokenname = "GETA";
+string public tokenabbrv = "GTA";
 uint public totalsupply = 0;
 // mapping variable here
 mapping(address => uint) public balances;
